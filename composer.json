@@ -1,0 +1,21 @@
+{
+    "name": "marcos/aula",
+    "description": "aprendizado",
+    "autoload": {
+        "psr-4": {
+            "Marcos\\Aula\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "amarelo282",
+            "email": "novahost@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim":"2.0",
+        "rain/raintpl": ">=3.0.0",
+        "phpmailer/phpmailer":"5.2.22"
+    }
+    
+}
